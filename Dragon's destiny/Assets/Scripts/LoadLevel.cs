@@ -6,7 +6,7 @@ public class LoadLevel : MonoBehaviour
 {
     public void PlayFighting() //для кнопки "Fighting" в PlayMenu в сцене main
     {
-        Application.LoadLevel(2); //открываем боевую сцену (сетевая игра)
+        Application.LoadLevel(8); //открываем боевую сцену (сетевая игра)
     }
 
     public void SkipIntro() //для пропуска интро и перехода в меню

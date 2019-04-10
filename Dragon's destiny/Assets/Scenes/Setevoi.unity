@@ -402,7 +402,6 @@ GameObject:
   m_Component:
   - component: {fileID: 775786751}
   - component: {fileID: 775786749}
-  - component: {fileID: 775786750}
   - component: {fileID: 775786752}
   m_Layer: 0
   m_Name: Networking
@@ -427,18 +426,6 @@ MonoBehaviour:
   showGUI: 1
   offsetX: 0
   offsetY: 0
---- !u!114 &775786750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775786748}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6465097c0ed61e547ad32c981f17fdd0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &775786751
 Transform:
   m_ObjectHideFlags: 0
@@ -471,7 +458,7 @@ MonoBehaviour:
   m_ServerBindToIP: 0
   m_ServerBindAddress: 
   m_NetworkAddress: localhost
-  m_DontDestroyOnLoad: 1
+  m_DontDestroyOnLoad: 0
   m_RunInBackground: 1
   m_ScriptCRCCheck: 1
   m_MaxDelay: 0.01

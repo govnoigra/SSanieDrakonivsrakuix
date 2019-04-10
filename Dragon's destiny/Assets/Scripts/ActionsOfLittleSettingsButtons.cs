@@ -9,7 +9,7 @@ public class ActionsOfLittleSettingsButtons : MonoBehaviour
     
     public void OpenWebsite ()  //для кнопки "вебсайт"
     {
-        Application.OpenURL("http://dragon.dragondestiny.tanovsul.beget.tech/home/"); //открывается вебсайт
+        Application.OpenURL("http://corazon.beget.tech/game/"); //открывается вебсайт
     }
     
 }
